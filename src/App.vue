@@ -136,10 +136,10 @@ export default {
     drawer: null,
     links: [
       ["mdi-view-dashboard", "Dashboard", "/dashboard"],
-      ["mdi-account", "Account"],
+      ["mdi-account", "Account", "/account"],
       ["mdi-list-box-outline", "Product", "/product"],
-      ["mdi-clipboard-list", "Order"],
-      ["mdi-cog-outline", "Setting"],
+      ["mdi-clipboard-list", "Order", "/order"],
+      ["mdi-cog-outline", "Setting", "/setting"],
     ],
     menus: [
         { title: "Profile", icon: "mdi-account" },
