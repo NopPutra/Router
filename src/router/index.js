@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import CountryView from '../views/CountryView'
 
 Vue.use(VueRouter)
 
@@ -10,9 +11,9 @@ const routes = [
     component: () => import('./../views/DashboardView')
   },
   {
-    path: '/product',
-    name: 'ProductView',
-    component: () => import('./../views/ProductView')
+    path: '/country',
+    name: 'CountryView',
+    component: CountryView
   },
 ]
 
